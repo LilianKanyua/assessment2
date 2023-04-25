@@ -43,11 +43,11 @@ class FirstString(var myString: String){
     }
 }
 //Question two
-//fun strongPassword(password:String):Boolean{
-//  if(password.length <8 && password.length>16){
-//
-//  }
-//}
+fun strongPassword(password:String):Boolean{
+  if(password.length <8 && password.length>16){
+
+  }
+}
 
 //Question3
 //Create a function that prints out multiples of 6 and 8 between 1 and 1000.For
