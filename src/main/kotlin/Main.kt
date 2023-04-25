@@ -3,6 +3,7 @@ fun main(){
 var firstString=FirstString("Heaven")
     println( firstString.firstCharacter())
     println(firstString.stringLength())
+    println(firstString.beginsWithVowel())
 
 
     multiples(1..1000);
@@ -30,9 +31,23 @@ class FirstString(var myString: String){
     fun stringLength():Int{
         return myString.length
     }
+    fun beginsWithVowel():Boolean{
+        var vowels= "a,e,i,o,u"
+        for (vowel in vowels){
+            if(vowel==myString[0]){
+
+            }
+
+        }
+        return true
+    }
 }
 //Question two
-
+//fun strongPassword(password:String):Boolean{
+//  if(password.length <8 && password.length>16){
+//
+//  }
+//}
 
 //Question3
 //Create a function that prints out multiples of 6 and 8 between 1 and 1000.For
